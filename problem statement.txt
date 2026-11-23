@@ -1,0 +1,1 @@
+Library Resource Validator: Create a Java program using String processing and primitive type casting to validate composite key integrity for weak ER entities.

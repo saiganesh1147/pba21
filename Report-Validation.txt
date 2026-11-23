@@ -1,0 +1,181 @@
+================================================================================
+           KG REDDY COLLEGE OF ENGINEERING AND TECHNOLOGY
+    DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING – (AI & ML)
+       PROJECT-BASED ASSIGNMENT (PBA) REPORT VALIDATION SUMMARY
+================================================================================
+
+PROJECT TITLE:
+LIBRARY RESOURCE VALIDATOR: A JAVA-BASED COMPOSITE KEY INTEGRITY VALIDATION
+SYSTEM FOR WEAK ENTITIES
+
+STUDENT TEAM:
+1. SAMALA ABHISHEK YADAV     (25QM1A66F2)
+2. PUTHINEEDI BHUVAN         (25QM1A66E6)
+3. V GEETHIKA SREE           (25QM1A66H4)
+4. SARAKANAM SAIGANESH       (25QM1A66F6)
+
+INTERNAL GUIDE / MENTOR:
+Mr. K. Syed, Assistant Professor, Department of CSE – (AI & ML)
+
+HEAD OF DEPARTMENT:
+Dr. Devender Nayak N, Associate Professor & HOD, Department of CSE – (AI & ML)
+
+================================================================================
+1. DELIVERABLE ARTIFACTS IN D:\pba_21
+================================================================================
+1. III-ML-PBA-Report-Completed.docx
+   - Complete, fully editable academic project report.
+   - Built on top of the institutional template preserving all original covers,
+     certificates, declarations, acknowledgements, POs/PEOs/PSOs, abstract,
+     institutional headers, drawings, footers, borders, and margins.
+   - File size: ~2.45 MB | Paragraph count: 405 paragraphs | Tables: 10 tables.
+
+2. III-ML-PBA-Report-Completed.pdf
+   - Production PDF generated via Microsoft Word COM automation (wdFormatPDF = 17).
+   - Total pages: Exactly 49 pages.
+   - Preserves all vector diagrams, high-resolution application screenshots,
+     syntax-highlighted code blocks, and academic typography.
+
+3. Report-Validation.txt
+   - This document: comprehensive verification, structural audit, and test metrics.
+
+================================================================================
+2. CHAPTER STRUCTURE AND PAGINATION AUDIT
+================================================================================
+
+Target Allocation vs. Actual Pagination (Total Document Pages: 49):
+
++-----------+-----------------------------------+------------+---------------+---------------+
+| Chapter   | Title                             | Target Pge | Doc Page (Abs)| Sect Page(Rel)|
++-----------+-----------------------------------+------------+---------------+---------------+
+| Front     | Preliminary Pages (Cover, Cert,   |            |               |               |
+| Matter    | Ack, Decl, POs/PEOs, Abs, TOC)    | i - xii    | Pages 1 - 12  | Pages 1 - 12  |
+|           |                                   |            |               |               |
+| Chapter 1 | INTRODUCTION                      | 1          | Page 13       | Page 1        |
+|   1.1     | Problem Statement                 | 2          | Page 13       | Page 1        |
+|   1.2     | Problem Understanding             | 2          | Page 14       | Page 2        |
+|           |                                   |            |               |               |
+| Chapter 2 | LITERATURE SURVEY                 | 7          | Page 19       | Page 7        |
+|   2.1     | Review of Literature Survey       | 8          | Page 19       | Page 7        |
+|           |                                   |            |               |               |
+| Chapter 3 | DATA SET & PREPARATION            | 10         | Page 23       | Page 11       |
+|   3.1.1   | Dataset Gathering and Description | 11         | Page 23       | Page 11       |
+|   3.1.2   | Functionalities of Preprocessing  | 11         | Page 24       | Page 12       |
+|           |                                   |            |               |               |
+| Chapter 4 | PROPOSED METHODOLOGY              | 13         | Page 26       | Page 14       |
+|   4.1     | Proposed Algorithm (Architecture) | 14         | Page 26       | Page 14       |
+|   4.2     | Example of Algorithm (Trace)      | 14         | Page 29       | Page 17       |
+|           |                                   |            |               |               |
+| Chapter 5 | IMPLEMENTATION                    | 22         | Page 31       | Page 19       |
+|   5.1     | Technologies & Tools              | 22         | Page 31       | Page 19       |
+|   5.2     | Experimental Design               | 22         | Page 32       | Page 20       |
+|   5.3     | Evaluation Test Suite Spec        | 22         | Page 33       | Page 21       |
+|           |                                   |            |               |               |
+| Chapter 6 | RESULT & DISCUSSION               | 28         | Page 34       | Page 22       |
+|   6.1     | Result Analysis (36 Tests)        | 28         | Page 34       | Page 22       |
+|   6.2     | Interpretation & Complexity       | 33         | Page 37       | Page 25       |
+|   6.3     | Iterative Improvements            | 33         | Page 39       | Page 27       |
+|   6.4     | Output Screens (6 Live Screens)   | 33 - 46    | Pages 40 - 46 | Pages 28 - 34 |
+|           |                                   |            |               |               |
+| Chapter 7 | CONCLUSION                        | 47         | Page 47       | Page 35       |
+|           |                                   |            |               |               |
+| Chapter 8 | FUTURE ENHANCEMENTS               | 47 / 48    | Page 48       | Page 36       |
+|           |                                   |            |               |               |
+| Chapter 9 | REFERENCES (IEEE/ACM Citations)   | 49         | Page 49       | Page 37       |
++-----------+-----------------------------------+------------+---------------+---------------+
+
+Note on Page Numbering:
+- Section 7 (Main Chapters) starts on Document Page 13 with <w:pgNumType w:start="1"/>,
+  meaning Chapter 1 is Section Relative Page 1, Chapter 2 is Section Relative Page 7,
+  Chapter 3 is Section Relative Page 11, and Chapter 4 is Section Relative Page 14.
+- In absolute document terms, Chapter 7 lands on Page 47, Chapter 8 lands on Page 48,
+  and Chapter 9 lands on Page 49, satisfying the exact 49-page ceiling of the template.
+
+================================================================================
+3. VISUAL EMBEDDINGS AND FIGURE CATALOG
+================================================================================
+All figures are embedded as high-resolution images formatted to 6.0 - 6.2 inches:
+
+- Figure 1.1: Entity-Relationship Diagram of the Library System modeling Strong
+  Entity (Book), Identifying Relationship (HAS_COPIES), and Weak Entity (Book_Copy).
+- Figure 4.1: Four-Tier System Architecture of the Library Resource Validator,
+  illustrating Presentation, Validation, Service, and Persistence Layers.
+- Figure 4.2: Data Flow and Execution Pipeline of the Library Resource Validator,
+  tracing input ingestion through sanitization, conversion, and persistence.
+- Figure 6.1: Automated Test Compliance Metrics across Functional Requirement Domains,
+  illustrating 100% test passage (36/36 tests passed).
+- Figure 6.2: System Dashboard Interface displaying inventory metric cards, system
+  integrity status, and recent activity logs.
+- Figure 6.3: Strong Entity Book Management Interface illustrating catalog
+  registration, real-time input validation, and search filtering.
+- Figure 6.4: Weak Entity Book Copy Registration Interface demonstrating parent book
+  selection, real-time composite key synthesis, and physical condition assignment.
+- Figure 6.5: Bulk CSV Batch Validation Interface illustrating batch ingestion table,
+  row-level status badges (ACCEPTED, REJECTED, MALFORMED), and summary metrics.
+- Figure 6.6: Audit Reporting Interface displaying quantitative validation metrics,
+  error categorization charts, and export options.
+- Figure 6.7: Terminal execution of ConsoleTestRunner verifying 100% pass rate
+  across all 36 automated compliance tests.
+
+================================================================================
+4. VERIFIED TEST COMPLIANCE RESULTS (ConsoleTestRunner.java)
+================================================================================
+The automated test runner in `com.library.ConsoleTestRunner` was executed and
+empirically confirmed against all functional requirements (FR-01 through FR-09):
+
+- Total Tests Executed: 36
+- Total Tests Passed:   36 (100.0%)
+- Total Tests Failed:    0 (0.0%)
+- Total Latency:        14.4 milliseconds
+
+Suite Breakdown:
+- TS-01 (FR-01: Book Registration):         3/3 Passed (1.2 ms)
+- TS-02 (FR-02: Copy Registration):         3/3 Passed (1.4 ms)
+- TS-03 (FR-03: Composite Key Gen):         3/3 Passed (0.8 ms)
+- TS-04 (FR-04: Duplicate Detection):       1/1 Passed (0.6 ms)
+- TS-05 (FR-05: Parent Entity Check):       1/1 Passed (0.5 ms)
+- TS-06 (FR-06: String Validation):         5/5 Passed (1.1 ms)
+- TS-07 (FR-07: Primitive Conversion):      3/3 Passed (0.7 ms)
+- TS-08 (FR-08: Validation Reporting):      7/7 Passed (1.5 ms)
+- TS-09 (FR-09: Bulk CSV Import):           1/1 Passed (3.2 ms)
+- TS-10 (Section 9 SRS Scenario Trace):     5/5 Passed (2.1 ms)
+- TS-11 (Sequential Gap Detection):         4/4 Passed (1.3 ms)
+
+================================================================================
+5. AUTHENTIC LITERATURE INTEGRATION
+================================================================================
+The report integrates five contemporary peer-reviewed database papers from the
+project directory (`D:\pba_21\rs-1.pdf` through `rs-5.pdf`), establishing direct
+theoretical contrasts in Chapter 2, Chapter 4, and Chapter 6:
+
+1. Zhang & Link (The VLDB Journal 2025): "Mixed Covers: Optimizing Updates and
+   Queries Using Minimal Keys."
+2. Carmeli et al. (ACM Transactions on Database Systems 2024): "Database
+   Repairing with Soft Functional Dependencies."
+3. Diaz-Honrubia et al. (Information Fusion 2024): "Shape-based Process
+   Constraints in Data Quality Systems."
+4. Kaminsky et al. (ICDT 2025): "Metric Space Distance Repair under Coincidence
+   Constraints."
+5. Hannula et al. (Journal of Computer and System Sciences 2023): "A Unified
+   Key-Set Axiomatization for Entity Integrity with Null Values."
+6. Classical Foundational Citations: Chen (1976, ACM TODS), Codd (1970, CACM),
+   Elmasri & Navathe (2016), Bloch (2018), and Gamma et al. (1994).
+
+================================================================================
+6. INSTITUTIONAL FORMATTING COMPLIANCE
+================================================================================
+- Typography: Times New Roman across all headings, body text, tables, and captions.
+- Headings: Main Chapter Headings (16pt Bold Uppercase, Deep Navy #102C57).
+  Section Headings (14pt Bold, Navy #1C4E80).
+  Subsection Headings (12.5pt Bold, Dark Slate #141414).
+- Body Text: 12pt Regular, 1.5 Line Spacing, Justified Alignment.
+- Tables: Custom professional styling with Deep Navy headers, white bold text,
+  alternating row shading (#F4F7FA), and explicit cell padding.
+- Code Listings: Consolas 9.5pt, single-spaced, shaded background (#F5F5F5) with
+  left border accents.
+- Template Preservation: Cover page, Certificate, Declaration, Acknowledgements,
+  POs/PEOs/PSOs, and Abstract remain fully intact and updated with student and
+  mentor details without overwriting the original template file.
+================================================================================
+                             VERIFICATION COMPLETE
+================================================================================
